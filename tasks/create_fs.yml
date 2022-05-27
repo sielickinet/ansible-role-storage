@@ -46,6 +46,7 @@
     - lv.filesystem is defined
     - lv.filesystem != 'None'
     - lv.filesystem != 'xfs'
+    - lv.filesystem != 'swap'
 
 - name: create_fs | creating new xfs filesystem on new LVM logical volume(s)
   filesystem:
